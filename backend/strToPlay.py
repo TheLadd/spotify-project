@@ -51,10 +51,3 @@ def printSongNames(myList):
         return
     for x in myList:
         print(x['name'], " | ", x['artists'][0]['name'])
-
-
-#myString = "Sad boy hours my love"
-myString = "I'm finding it hard to carry on"
-myString = "Hey friend you suck"
-myList = myString.split()
-printSongNames(getSongs(sp, myList)) 

@@ -19,8 +19,3 @@ sp_oauth = spotipy.oauth2.SpotifyOAuth(
     scope=SCOPE,
     username=UN,
 )
-
-# sp = spotipy.Spotify(auth_manager=sp_oauth)
-# sp.user_create_playlist()
-# sp.search(q=myQuery, type='track')
-#   i believe sp api queries take the form of "artist:<artist> track:<track> genre:<genre> etc.." (of type string)
